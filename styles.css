@@ -1,17 +1,19 @@
 /* popup styles */
 body {
   font-size: 100%;
+  font-style: "Arial";
   margin: 0;
-  font-family: 'Roboto', sans-serif;
   color: rgb(0, 0, 0);
   width: 300px;
   height: 100%;
   background-color: #fcf8f8;
+  border-radius: 20px;
 }
 
 .rgbinput {
   width: 25px;
 }
+
 
 .hexinput {
   width: 50px;
@@ -22,21 +24,6 @@ body {
   width: 100px;
   background-color: rgb(52, 124, 124);
   margin-top: 250px;
-}
-
-.corner-button {
-  top: calc(100vh - 40px);
-  right: 10px;
-  position: fixed;
-  margin: 0;
-}
-
-.corner-button:hover {
-  opacity: 90%;
-}
-
-#Colorblind-Picker form {
-  padding: 20px;
 }
 
 /* radio button styles */
@@ -76,35 +63,14 @@ body {
   text-align: center;
 }
 
-.checkbox-custom:checked+.checkbox-custom-label:before {
-  background: rebeccapurple;
-}
 
 .radio-custom+.radio-custom-label:before {
   border-radius: 50%;
 }
 
 .radio-custom:checked+.radio-custom-label:before {
-  background: #910ab3;
+  background: pink;
 }
-
-#rainbow {
-  background: red;
-  background: linear-gradient(to right,
-      rgb(194, 103, 194),
-      orange,
-      rgb(31, 204, 54),
-      rgb(28, 172, 255),
-      rgb(10, 99, 10),
-      blue);
-  font-size: 3em;
-  color: white;
-  text-shadow: 2px 2px rgb(54, 54, 54);
-  margin-bottom: 0;
-  margin-top: 0;
-  padding: 15px;
-}
-
 
 form div:hover {
   background-color: rgb(230, 230, 230)
