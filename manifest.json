@@ -1,16 +1,15 @@
 {
-  "name": "Colorblindly",
-  "version": "1.8",
+  "name": "HueHarmony",
+  "version": "1.0",
   "manifest_version": 2,
-  "description": "Simulates colorblindness in your web browser.",
-  "homepage_url": "https://github.com/oftheheadland",
+  "description": "Aims to enhance web browsing activity for all.",
   "icons": {
-    "16": "images/eyecon.png",
-    "48": "images/eyecon.png",
-    "128": "images/eyecon.png"
+    "16": "images/icon1.png",
+    "48": "images/icon1.png",
+    "128": "images/icon1.png"
   },
   "browser_action": {
-    "default_title": "Colorblindly",
+    "default_title": "HueHarmony",
     "default_popup": "popup.html"
   },
   "permissions": [
